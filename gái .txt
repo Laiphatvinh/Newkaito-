@@ -90,20 +90,20 @@ end)
 local AllowRunService = true
 local AllowRunServiceBind = Instance.new("BindableFunction")
 function AllowRunServiceBind.OnInvoke(args)
-    if args == "ON" then
+    if args == "bật ney" then
         AllowRunService = true
-    elseif args == "OFF" then
+    elseif args == "cức quả tiễn" then
         AllowRunService = false
     end
     local CoreGui = game:GetService("StarterGui")
     CoreGui:SetCore("SendNotification", {
-        Title = "Script Fram Chest",
-        Text = "By: NEW┋κᴀιтo女",
+        Title = "Script Fram Chest của taoo",
+        Text = "By: NEW┋κᴀιтo女V50",
         Icon = "rbxthumb://type=Asset&id=18259438115&w=150&h=150",
         Duration = math.huge,
         Callback = AllowRunServiceBind,
-        Button1 = "1",
-        Button2 = "2OFF",
+        Button1 = "Ăncứkko",
+        Button2 = "Tắtawncứk",
     })
 end
 
@@ -122,13 +122,13 @@ end)
 
 local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
-    Title = "Script Fram Chest",
+    Title = "Script Fram chest NEW┋κᴀιтo女",
     Text = "By: NEW┋κᴀιтo女",
     Icon = "rbxthumb://type=Asset&id=18259438115&w=150&h=150",
     Duration = math.huge,
     Callback = AllowRunServiceBind,
-    Button1 = "ON",
-    Button2 = "OFF",
+    Button1 = "LỆNH",
+    Button2 = "BỚT ĂN CỨK LẠI",
 })
 task.spawn(function()
     while true and task.wait(.5) do
